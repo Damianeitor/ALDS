@@ -1,0 +1,32 @@
+{
+ "dialogs":[
+  {
+   "dialog": 1,
+   "talk_sprite": "normal_talk",
+   "idle_sprite": "normal_idle",
+   "text": "helloooo",
+   "speed": 0.05
+  },
+  {
+   "dialog": 2,
+   "talk_sprite": "normal_talk",
+   "idle_sprite": "normal_idle",
+   "text": "helloooo again!",
+   "speed": 0.025
+  },
+{
+   "dialog": 3,
+   "talk_sprite": "normal_talk",
+   "idle_sprite": "normal_idle",
+   "text": "im evil, kys",
+   "speed": 0.025
+  },
+{
+   "dialog": 4,
+   "talk_sprite": "normal_talk",
+   "idle_sprite": "normal_idle",
+   "text": "that was a joke btw dont do that shit pls",
+   "speed": 0.025
+  }
+ ]
+}
