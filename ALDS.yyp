@@ -33,8 +33,8 @@
   ],
   "ForcedPrefabProjectReferences":[],
   "IncludedFiles":[
-    {"$GMIncludedFile":"","%Name":"zuki1ing.txt","CopyToMask":-1,"filePath":"datafiles/assets/zuki","name":"zuki1ing.txt","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
-    {"$GMIncludedFile":"","%Name":"english.txt","CopyToMask":-1,"filePath":"datafiles/lang","name":"english.txt","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+    {"$GMIncludedFile":"","%Name":"english.txt","CopyToMask":-1,"filePath":"datafiles/assets","name":"english.txt","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+    {"$GMIncludedFile":"","%Name":"zuki1ing.json","CopyToMask":-1,"filePath":"datafiles/assets/zuki","name":"zuki1ing.json","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
   ],
   "isEcma":false,
   "LibraryEmitters":[],

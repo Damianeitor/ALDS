@@ -1,0 +1,121 @@
+{
+  "dialogs": [
+    {
+      "dialog": 1,
+      "talk_sprite": "normal_talk",
+      "idle_sprite": "normal_idle",
+      "text": "helloooo",
+      "speed": 0.05
+    },
+    {
+      "dialog": 2,
+      "talk_sprite": "normal_talk",
+      "idle_sprite": "normal_idle",
+      "text": "helloooo again!",
+      "speed": 0.025
+    },
+    {
+      "dialog": 3,
+      "talk_sprite": "normal_talk",
+      "idle_sprite": "normal_idle",
+      "text": "im evil, kys",
+      "speed": 0.05
+    },
+    {
+      "dialog": 4,
+      "talk_sprite": "normal_talk",
+      "idle_sprite": "normal_idle",
+      "text": "that was a joke btw dont do that shit pls",
+      "speed": 0.05
+    },
+    {
+      "dialog": 5,
+      "talk_sprite": "normal_talk",
+      "idle_sprite": "normal_idle",
+      "text": "I'm evil but not a monster",
+      "speed": 0.05,
+      "answers": [
+    {
+      "text": "liar liar pants on fire",
+      "affection": -50,
+      "type": "negative",
+      "respond": "ew, mean"
+    },
+    {
+      "text": "lol",
+      "affection": 50,
+      "type": "positive",
+      "respond": "you are funny"
+    },
+    {
+      "text": "ehhhh",
+      "affection": 25,
+      "type": "neutral",
+      "respond": "uhhhhhhh"
+      }
+     ]
+    },
+    {
+      "dialog": 6,
+      "talk_sprite": "normal_talk",
+      "idle_sprite": "normal_idle",
+      "text": "jr",
+      "speed": 0.05
+    },
+    {
+      "dialog": 7,
+      "talk_sprite": "normal_talk",
+      "idle_sprite": "normal_idle",
+      "text": "do you love me",
+      "speed": 0.05,
+      "answers": [
+    {
+      "text": "yes",
+      "affection": 50,
+      "type": "positive",
+      "respond": "yay"
+    },
+    {
+      "text": "no",
+      "affection": 50,
+      "type": "negative",
+      "respond": "aw"
+    },
+    {
+      "text": "insert_third_option",
+      "affection": 25,
+      "type": "neutral",
+      "respond": "what"
+      }
+     ]
+    },
+    {
+      "dialog": 8,
+      "talk_sprite": "normal_talk",
+      "idle_sprite": "normal_idle",
+      "text": "do you need me",
+      "speed": 0.05,
+      "answers": [
+    {
+      "text": "yes",
+      "affection": 50,
+      "type": "positive",
+      "respond": "yay"
+    },
+    {
+      "text": "no",
+      "affection": 50,
+      "type": "negative",
+      "respond": "aw"
+    },
+    {
+      "text": "the other option",
+      "affection": 25,
+      "type": "neutral",
+      "respond": "what"
+      }
+     ]
+    }
+  ]
+}
+
