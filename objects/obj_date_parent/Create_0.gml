@@ -11,7 +11,7 @@ while (!file_text_eof(file))
 file_text_close(file);
 
 if (content == "")
-    show_debug_message("Error: JSON vacío o no cargado.");
+    show_debug_message("Error: JSON is empty and couldnt be loaded.");
 
 global.dialog_data = json_parse(content);
 global.affectionbar = 0;
@@ -27,3 +27,4 @@ showing = 0;
 delay = 0;
 text_speed = 0;
 dialog_list = global.dialog_data.dialogs;
+hovering = false

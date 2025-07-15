@@ -3,7 +3,7 @@
   "%Name":"fnt_1",
   "AntiAlias":1,
   "applyKerning":0,
-  "ascender":15,
+  "ascender":18,
   "ascenderOffset":0,
   "bold":false,
   "canGenerateBitmap":true,
@@ -12,8 +12,8 @@
   "fontName":"prefablibrary_icon_font",
   "glyphOperations":0,
   "glyphs":{
-    "32":{"character":32,"h":16,"offset":0,"shift":8,"w":8,"x":2,"y":2,},
-    "9647":{"character":9647,"h":16,"offset":3,"shift":10,"w":4,"x":12,"y":2,},
+    "32":{"character":32,"h":20,"offset":0,"shift":10,"w":10,"x":2,"y":2,},
+    "9647":{"character":9647,"h":20,"offset":3,"shift":12,"w":6,"x":14,"y":2,},
   },
   "hinting":0,
   "includeTTF":false,
@@ -21,7 +21,7 @@
   "italic":false,
   "kerningPairs":[],
   "last":0,
-  "lineHeight":16,
+  "lineHeight":20,
   "maintainGms1Font":false,
   "name":"fnt_1",
   "parent":{
@@ -38,12 +38,9 @@
   "resourceVersion":"2.0",
   "sampleText":"abcdef ABCDEF\n0123456789 .,<>\"'&!?\nthe quick brown fox jumps over the lazy dog\nTHE QUICK BROWN FOX JUMPS OVER THE LAZY DOG\nDefault character: ▯ (9647)",
   "sdfSpread":8,
-  "size":12.0,
+  "size":15.0,
   "styleName":"Regular",
-  "textureGroupId":{
-    "name":"Default",
-    "path":"texturegroups/Default",
-  },
+  "textureGroupId":null,
   "TTFName":"",
   "usesSDF":false,
 }

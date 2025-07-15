@@ -1,1 +1,0 @@
-room_goto(Test_date)

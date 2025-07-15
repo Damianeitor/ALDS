@@ -31,7 +31,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_peppino_sizetest",
+    "path":"sprites/spr_peppino_sizetest/spr_peppino_sizetest.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

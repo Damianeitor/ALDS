@@ -41,10 +41,15 @@ if (array_length(neu_list) > 0) array_push(selected_answers, neu_list[irandom(ar
 if (showing) {
     if (char_index < string_length(current_text)) {
         if (delay <= 0) {
-            char_index++;
-            display_text = string_copy(current_text, 1, char_index);
-            delay = text_speed;
-            audio_play_sound(keyClick1, 1, false);
+           char_index++;
+display_text = string_copy(current_text, 1, char_index);
+delay = text_speed;
+
+var current_char = string_char_at(current_text, char_index);
+if (current_char != " ") {
+    audio_play_sound(keyClick1, 1, false);
+}
+
         } else {
             delay -= (delta_time / 1000000);
         }
@@ -68,7 +73,7 @@ if (showing) {
                     delay = 0;
                 }
             }
-        } else if (showing_response && keyboard_check_pressed(vk_space)) {
+        } else if (showing_response && (keyboard_check_pressed(vk_space)  || mouse_check_button_pressed(mb_left))) {
             dialog_index++;
             showing = false;
             showing_response = false;
@@ -81,6 +86,21 @@ if (showing) {
         }
     }
 }
-if (char_index >= string_length(current_text) && sprite_index != idle_sprite) {
+if (char_index >= string_length(current_text)) {
     sprite_index = idle_sprite;
+	
+	if (!answer_chosen && array_length(selected_answers) > 0 && char_index >= string_length(current_text)) {
+    hovering = false;
+    for (var i = 0; i < array_length(selected_answers); i++) {
+        var x1 = 64;
+        var y1 = 100 + i * 40;
+        var x2 = 364;
+        var y2 = y1 + 30;
+
+        if (point_in_rectangle(mouse_x, mouse_y, x1, y1, x2, y2)) {
+            hovering = true;
+            break;
+        }
+	} 
+}
 }
